@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', 'Lato', sans-serif;
   color: #414141;
-  background-color: #e4f1f1;
+  background-color: #E5E5E5;
 } 
 
 h1,
@@ -18,7 +18,15 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
-  color: #2b2b2b;
+  color: rgba(0, 0, 0, 0.87);
+}
+h1 {
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
 }
 
 ul {
@@ -27,7 +35,36 @@ ul {
   padding: 0;
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+input {
+  outline: none;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
 .center {
   margin: auto;
   text-align: center;
+}
+
+.preview {
+  height: 650px;
+  background-position: center;
+padding: 164px 0 0 0;
+  margin-bottom: 140px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/pexels-alexandr-podvalny-1227513.jpeg');
+}
+
+.preview > div {
+  max-width: 380px;
+  color: #fff;
+}
+.preview  p {
+  margin: 21px 0 32px 0;
 }

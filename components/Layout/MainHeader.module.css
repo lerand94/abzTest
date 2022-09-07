@@ -1,0 +1,17 @@
+.header {
+    background: #fff;
+    padding: 13px 0;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+
+}
+.actions button:first-child {
+    margin-right: 10px;
+}

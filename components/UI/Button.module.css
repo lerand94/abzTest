@@ -1,0 +1,26 @@
+.btn {
+    background-color: #F4E041;
+    border-radius: 80px;
+    padding: 4px 23px;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    transition: 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color:#FFE302;
+    border-color: #02afa1;
+}
+
+.btn:disabled {
+    background-color:#B4B4B4;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: not-allowed;
+}
